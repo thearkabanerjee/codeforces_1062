@@ -7,7 +7,7 @@ int main(){
   for (int i = 0; i<z ; i++){
     int a, b, c, d;
     cin >> a>> b>>c>>d;
-    if (a >= 1 or a <= 10 or b>= 1 or b<= 10 or c>= 1 or c<= 10 or d>= 1 or d<= 10){
+    if (a >= 1 and a <= 10 and b>= 1 and b<= 10 and c>= 1 and c<= 10 and d>= 1 and d<= 10){
       if (a ==b==c==d){
         cout << "YES" << endl;
       }else{
